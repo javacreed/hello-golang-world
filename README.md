@@ -3,7 +3,7 @@
 The Go Programming Language is a relatively new programming language developed to address shortcomings that other, more established, programming languages may have.  The Go Programming Language has many benefits, when compared to others, some of which are listed below:
 
 1. **Statically Typed**: One executable file is created which will contain all the code that the program will ever need in order to run on the client machines
-1. **Simplified Multithreading Support**: Simply put the `go` keyword before a function call, and you get yourself a thread
+1. **Simplified Multithreading Support**: Simply put the `go` keyword before a function call, and you get yourself a thread (you will not get exactly a thread but a *goroutine*, which is a lightweight thread of execution)
 1. **Low Memory Footprint**: The Go Programming Language has a smaller memory footprint making it ideal for cases where we may be charged based on the resources our program uses, such as cloud
 1. **Fast**: Despite the fact of being a managed programming language, Go is very fast
 
